@@ -1,0 +1,16 @@
+#Algorithm 
+Queue basically FIFO rule where as Stack follow LIFO rules.
+for performing Queue using Stack , we need two Stacks
+
+stack_1(stk1) --> This is for enqueue operation ( In queue, using enqueue opration we store data), TC : O(1)
+    code: stk1.push(data)
+stack_2(stk2) --> This is for dequeue operation. (In qeque, using dequeue operation we delete data.)
+  algorithm : 
+            a). Check stk2 is empty or not.
+            b). If Not empty, then simply take top value and return ....... TC---> O(1).
+            
+            c). If stk2 is empty
+                1). first transfer all element from stk1 to stk2 ...........TC : O(n)
+                2). then return top most value
+                
+                Thats why pop() operation takes O(1) amortised time.
