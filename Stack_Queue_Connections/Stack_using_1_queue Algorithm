@@ -1,4 +1,4 @@
-#Algorithm 
+# Algorithm 
 Queue basically FIFO rule where as Stack follow LIFO rules.
 for performing Queue using Stack , we need two Stacks
 
